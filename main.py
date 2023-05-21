@@ -1,6 +1,7 @@
 from itertools import product
 import progressbar
 from sklearn import preprocessing
+from sklearn.model_selection import cross_val_score
 
 def create_bar(max_value):
   widgets = [' [',

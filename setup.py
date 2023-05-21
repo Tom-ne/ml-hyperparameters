@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 NAME = "ml_hyperparameters"
 DESCRIPTION = "A basic library to help find the best hyperparameters in sklearn"
 LONG_DESCRIPTION = "A library that uses magic to find the best hyperparameters in a modular way"
